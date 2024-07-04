@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Disha",
+      "password": "password1",
+      "accountBalance": 2999960200,
+      "loanAccount": {
+        "123-p": {
+          "name": "Personal Loan - 1",
+          "availedOn": "10-APR-2024",
+          "amount": 100000,
+          "balance": 63405.58379750194,
+          "history": [
+            {
+              "id": 2,
+              "amount": "10000",
+              "date": "2024-06-28"
+            },
+            {
+              "id": 2,
+              "amount": "10000",
+              "date": "2024-06-28"
+            },
+            {
+              "id": 3,
+              "amount": "15000",
+              "date": "2024-07-02"
+            },
+            {
+              "id": 4,
+              "amount": "3000",
+              "date": "2024-07-02"
+            }
+          ]
+        },
+        "7789-h": {
+          "name": "Housing Loan",
+          "availedOn": "10-APR-2024",
+          "amount": 100000,
+          "balance": 98616.66666666667,
+          "history": [
+            {
+              "id": 1,
+              "amount": 100,
+              "date": "10-MAY-2024"
+            },
+            {
+              "id": 2,
+              "amount": "1800",
+              "date": "2024-07-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "username": "Varsha",
+      "password": "password2",
+      "accountBalance": 3000000000,
+      "loanAccount": {
+        "123-p": {
+          "name": "Personal Loan - 1",
+          "availedOn": "10-APR-2024",
+          "amount": 100000,
+          "balance": 100000,
+          "history": [
+            {
+              "id": 1,
+              "amount": 100,
+              "date": "10-MAY-2024"
+            }
+          ]
+        },
+        "7789-h": {
+          "name": "Housing Loan",
+          "availedOn": "10-APR-2024",
+          "amount": 100000,
+          "balance": 100000,
+          "history": [
+            {
+              "id": 1,
+              "amount": 100,
+              "date": "10-MAY-2024"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
