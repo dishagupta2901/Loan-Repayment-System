@@ -1,0 +1,8 @@
+/* Colors */
+:root {
+    --primary-color: #78ADD2; /* Iceberg */
+    --primary-color-dark: #004366; /* Darker shade of Iceberg */
+    --secondary-color: #21AA47; /* A4D0A0 */
+    --background-color: #F5F5F5; /* Light background color */
+    --text-color: #333333; /* Main text color */
+}

@@ -1,0 +1,47 @@
+.amortization-schedule {
+    margin-top: 20px;
+}
+
+.amortization-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.amortization-schedule th,
+.amortization-schedule td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+}
+
+.amortization-schedule th {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+    background-color: var(--primary-color-dark);
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+    color: var(--text-color);
+}

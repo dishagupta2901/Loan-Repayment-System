@@ -1,0 +1,36 @@
+/* profile.css */
+
+.dashboard .main-content {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.profile-details {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.profile-details h3 {
+    margin-top: 20px;
+}
+
+.profile-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-details ul ul {
+    margin-top: 10px;
+}
+
+.profile-details ul li {
+    margin-bottom: 10px;
+}

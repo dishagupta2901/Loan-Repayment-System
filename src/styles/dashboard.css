@@ -1,0 +1,72 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root styles */
+:root {
+    --primary-color: #78ADD2; /* Iceberg */
+    --primary-color-dark: #004366; /* Darker shade of Iceberg */
+    --secondary-color: #21AA47; /* A4D0A0 */
+    --background-color: #F5F5F5; /* Light background color */
+    --text-color: #333333; /* Main text color */
+}
+
+/* Dashboard container */
+.dashboard {
+    display: flex;
+    background-color: var(--background-color);
+    height: calc(100vh - 120px); /* Adjust according to header and footer height */
+    padding-bottom: 60px; /* Adjust according to footer height */
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling for sidebar content */
+    position: sticky;
+    top: 0;
+    height: 100%; /* Occupy full height of the dashboard */
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+    color: var(--primary-color-dark);
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h1 {
+    color: var(--primary-color-dark);
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    color: var(--text-color);
+    line-height: 1.6;
+}

@@ -1,0 +1,48 @@
+.payment-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.payment-form h3 {
+    margin: 0 0 40px 0;
+}
+
+.message {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    margin: 0 0 20px 0;
+}
+
+.payment-form select, .payment-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.payment-form button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+    background-color: var(--primary-color-dark);
+}
